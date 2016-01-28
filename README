@@ -1,0 +1,8 @@
+Python scripts running on python 3.4
+
+Creating the random_numbers.txt using command:
+# python createRandom.py
+
+Calculating the percentage:
+# python bitSight.py random_numbers.txt
+
