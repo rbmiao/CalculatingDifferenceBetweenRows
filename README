@@ -6,3 +6,18 @@ Creating the random_numbers.txt using command:
 Calculating the percentage:
 # python bitSight.py random_numbers.txt
 
+
+If there is some out of range numbers, output will be look like
+$ python bitSight.py random_numbers.txt
+   1	 393
+   2	 121	-100.00%	 (negative % difference between  393 -> 121)
+   3	 373	200.00%	 (POSITIVE % difference between  121 -> 373)
+   4	 273	-100.00%	 (negative % difference between  373 -> 273)
+   5	 299	0.00%	 (POSITIVE % difference between  273 -> 299)
+   6	 252	-100.00%	 (negative % difference between  299 -> 252)
+   7	 118	-100.00%	 (negative % difference between  252 -> 118)
+
+Some numbers is out of range, existing...
+
+$ 
+
