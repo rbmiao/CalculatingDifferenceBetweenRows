@@ -8,7 +8,6 @@ $ python bitSight.py random_numbers.txt
 
 
 If there is some out of range numbers, output will be look like
-
 $ python bitsight.py random_outrange.txt 
    1	 393
    2	 121	-100.00%	 (negative % difference between  393 -> 121)
