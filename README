@@ -1,0 +1,40 @@
+Python scripts running on python 3.4
+
+Creating the random_numbers.txt using command:
+$ python3 create_random.py
+
+Calculating the percentage:
+$ python3 bitsight.py random_numbers.txt
+   1	 393
+   2	 121	-69.21%	 (negative % difference between  393 -> 121)
+   3	 373	208.26%	 (POSITIVE % difference between  121 -> 373)
+   4	 273	-26.81%	 (negative % difference between  373 -> 273)
+   5	 299	9.52%	 (POSITIVE % difference between  273 -> 299)
+   6	 252	-15.72%	 (negative % difference between  299 -> 252)
+   7	 118	-53.17%	 (negative % difference between  252 -> 118)
+....
+(truncated)
+....
+ 994	 129	-51.32%	 (negative % difference between  265 -> 129)
+ 995	 217	68.22%	 (POSITIVE % difference between  129 -> 217)
+ 996	 485	123.50%	 (POSITIVE % difference between  217 -> 485)
+ 997	 211	-56.49%	 (negative % difference between  485 -> 211)
+ 998	 228	8.06%	 (POSITIVE % difference between  211 -> 228)
+ 999	 320	40.35%	 (POSITIVE % difference between  228 -> 320)
+1000	 128	-60.00%	 (negative % difference between  320 -> 128)
+
+If there is some numbers out of range, scripts will be stop where the outrange happens.
+Output will be looking like following:
+$ python3 bitsight.py random_outrange.txt
+   1	 393
+   2	 121	-69.21%	 (negative % difference between  393 -> 121)
+   3	 373	208.26%	 (POSITIVE % difference between  121 -> 373)
+   4	 273	-26.81%	 (negative % difference between  373 -> 273)
+   5	 299	9.52%	 (POSITIVE % difference between  273 -> 299)
+   6	 252	-15.72%	 (negative % difference between  299 -> 252)
+   7	 118	-53.17%	 (negative % difference between  252 -> 118)
+
+Some numbers is out of range, existing...
+
+$
+
